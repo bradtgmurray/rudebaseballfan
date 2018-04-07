@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts" : {
+    "run": "node -r dotenv/config index.js"
+  },
   "dependencies": {
     "dotenv": "^5.0.1",
     "telegraf": "^3.20.0"
